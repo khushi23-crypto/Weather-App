@@ -1,23 +1,19 @@
-/* Full height for layout */
 html, body, #root {
   height: 100%;
   margin: 25px;
   padding: 5px;
 }
 
-/* App layout container */
 .app-wrapper {
   display: flex;
   flex-direction: column;
   min-height: 150vh;
 }
 
-/* Main content should grow to fill space */
 .main-content {
   flex: 1;
 }
 
-/* Ensure footer stays at bottom when content is less */
 footer.footer-container {
   margin-top: auto;
 }
